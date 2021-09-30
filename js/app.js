@@ -19,4 +19,9 @@ function Converter(){
 	// console.log(valorEmReal)
 
 	document.querySelector("#valorConvertido").innerHTML = "O resultado em real é R$" + valorEmReal.toFixed(2)
+
+	/** CALCULAR BITCOIN */
+
+	let bitcoin = valorEmReal / 225857.44
+	document.querySelector("#valorBitcoin").innerHTML = "O resultado em Bitcoin é " + bitcoin.toFixed(2)
 }
